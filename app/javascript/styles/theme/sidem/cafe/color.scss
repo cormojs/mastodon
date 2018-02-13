@@ -5,12 +5,17 @@ $success-green: #79bd9a;    // Padua
 $error-red: #df405a;        // Cerise
 $warning-red: #ff5050;      // Sunset Orange
 $gold-star: #ca8f04;        // Dark Goldenrod
+$white-pink: #ffbbee; // Cafe Parade like pink
+$black-pink: #421d34;
+$grey: #6d695c;
+$chocolate: #4b2929;
+$yellow: #F5DC7E;
 
 // Values from the classic Mastodon UI
-$classic-base-color: #421d34;         // Midnight Express
-$classic-primary-color: #c89bc0;      // Echo Blue
+$classic-base-color: $grey;         // Midnight Express
+$classic-primary-color: $black-pink;      // Echo Blue
 $classic-secondary-color: #e0c0e0;    // Pattens Blue
-$classic-highlight-color: #918912;    // Summer Sky
+$classic-highlight-color: $chocolate;    // Summer Sky
 
 // Variables for defaults in UI
 $base-shadow-color: $black !default;
