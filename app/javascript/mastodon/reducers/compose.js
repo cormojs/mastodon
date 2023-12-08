@@ -309,10 +309,6 @@ export default function compose(state = initialState, action) {
         map.set('sensitive', true);
       }
     });
-  case TWEXILE_SUBSCRIBE_CHANGE:
-    return state.withMutations(map => {
-      map.set('twexile', !state.get('twexile'));
-    });
   case COMPOSE_SPOILER_TEXT_CHANGE:
     if (!state.get('spoiler')) return state;
     return state
